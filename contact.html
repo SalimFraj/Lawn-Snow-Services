@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lawn Mowing and Snow Removal Services">
+    <title>Lawn & Snow Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="snowflake.png" type="image/png">
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-leaf"></i> Lawn & Snow Services <i class="fas fa-snowflake"></i> </h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="pricing.html"><i class="fas fa-tag"></i> Pricing</a></li>
+            <li><a href="our-team.html"><i class="fas fa-users"></i> Our Team</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <section id="contact" data-aos="fade-up">
+        <h2>Contact Us</h2>
+        <form id="quote-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+            <label for="service">Choose Your Service:</label>
+                <select id="service" name="service" required>
+                    <option value="lawn-mowing">Lawn Mowing</option>
+                    <option value="snow-shoveling">Snow Shoveling</option>
+                    <option value="yard-cleanup">Yard Cleanup</option>
+                </select>
+            <label for="land-size">Land Size (sq. ft.):</label>
+            <input type="number" id="land-size" name="land-size" required>
+            <button type="submit"><i class="fas fa-paper-plane"></i> Get a Quote</button>
+        </form>
+        <p><strong>Address:</strong> 123 Service Lane, Calgary, AB</p>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23738.224734840348!2d-114.0718837!3d51.0447335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDAyJzQwLjkiTiAxMTTCsDA0JzIwLjIiVw!5e0!3m2!1sen!2sca!4v1674186939531!5m2!1sen!2sca" 
+            width="100%" 
+            height="300" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy"></iframe>
+    </section>
+    <footer>
+        <ul>
+            <li><a href="error.html" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="error.html" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="error.html" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+        <p>© 2024 Lawn & Snow Services. All rights reserved. Designed by Salim Fraj.</p>
+        <a href="#top" class="go-to-top-btn">↑ Top</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
